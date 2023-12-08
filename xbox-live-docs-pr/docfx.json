@@ -1,0 +1,66 @@
+{
+  "build": {
+    "content": [
+      {
+        "files": [
+          "**/*.md",
+          "**/*.yml"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "**/snippets/**",
+          "code-snippets/**",
+          "**/TOC-**.md",
+          "_themes/**",
+          "_themes.pdf/**",
+          "README.md",
+          "LICENSE",
+          "LICENSE-CODE",
+          "ThirdPartyNotices"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "**/*.png",
+          "**/*.jpg",
+          "**/*.svg",
+          "**/*.gif"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "_themes/**",
+          "_themes.pdf/**"
+        ]
+      }
+    ],
+    "overwrite": [],
+    "externalReference": [],
+    "globalMetadata": {
+      "author": "mlamaute",
+      "breadcrumb_path": "/gaming/xbox-live/breadcrumb/toc.json",
+      "extendBreadcrumb": true,
+      "feedback_system": "GitHub",
+      "feedback_github_repo": "MicrosoftDocs/xbox-live-docs",
+      "searchScope": ["Xbox Live"],
+      "ms.author": "migreen",
+      "ms.prod": "gaming",
+      "ms.technology": "xboxlive",
+      "titleSuffix": "Xbox Live",
+      "zone_pivot_group_filename": "xbox-live/zone-pivot-groups.json",
+      "_op_documentIdPathDepotMapping": {
+        "./": {
+          "depot_name": "MSDN.windows-uwp",
+          "folder_relative_path_in_docset": "xbox-live/"
+        }
+      }
+    },
+    "fileMetadata": {},
+    "template": [],
+    "dest": "xbox-live-docs-pr",
+    "markdownEngineName": "markdig"
+  }
+}
